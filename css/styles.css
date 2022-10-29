@@ -168,6 +168,7 @@ h1, h2, h3, p {
 .hiro-btn:focus {color: var(--primari-text-color);
     background-color: var(--discript-background-color);}
 
+/*---------------------PREM--------------------*/
 
 .visually-hidden {
     position: absolute;
@@ -181,7 +182,10 @@ h1, h2, h3, p {
      clip-path: inset(50%);
      margin: -1px;
    }
-
+.prem {
+    display: flex;
+    justify-content: space-between;
+}
 
 .prem-title {
     font-weight: 700;
@@ -197,7 +201,13 @@ h1, h2, h3, p {
 }
 .prem-uhdertitle {
     width: 270px;
+
 }
+
+
+
+
+
 .work {background-color: var(--discript-background-color);
     padding-top: 94px;
     padding-bottom: 94px;
