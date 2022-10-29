@@ -34,6 +34,21 @@ h1, h2, h3, p {
 
 .link {text-decoration: none;}
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    outline: 2px solid red;
+}
+
 /*---------------------HEADER---------------------------------------*/
 
 .header {background-color: var(--background-color);
@@ -46,6 +61,7 @@ h1, h2, h3, p {
     display: flex;
     align-items: center;
 }
+
 .header-link {
     margin-right: 93px;
 }
@@ -88,40 +104,34 @@ h1, h2, h3, p {
 .nev-link.link.current {color: var(--accent-color);
 }
 
+.site-descr {
+    display: flex;
+    gap: 50px;
+}
+
 .descr-list {
     font-weight: 500;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-    text-align: center;
-
-   
+    text-align: center; 
 }
 .descr-list:hover,
 .descr-list:focus {color: var(--accent-color);
 }
 
-.site-descr {
-    display: flex;
-    gap: 50px;
-
-}
 /*-------------------------------HIRO------------------*/
+.hiro {background-color: var(--dark-background-color);}
 
-.hiro-item {background-color: var(--dark-background-color);
-    width: 1600px;
+.hiro-item {
     padding-top: 94px;
     padding-bottom: 94px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .hiro-uhdertitle {
     width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hiro-title {
@@ -150,15 +160,14 @@ h1, h2, h3, p {
     border: transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    align-items: center;
-    text-align: center;
-
- 
 }   
 .hiro-btn:hover,
 .hiro-btn:focus {color: var(--primari-text-color);
     background-color: var(--discript-background-color);}
+
 
 .visually-hidden {
     position: absolute;
@@ -172,19 +181,7 @@ h1, h2, h3, p {
      clip-path: inset(50%);
      margin: -1px;
    }
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-.container {
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    outline: 2px solid red;
-}
+
 
 .prem-title {
     font-weight: 700;
