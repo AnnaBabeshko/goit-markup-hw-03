@@ -67,6 +67,7 @@ img {
   padding-top: 24px;
   padding-bottom: 25px;
   align-items: baseline;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
