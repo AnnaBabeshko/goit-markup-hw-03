@@ -254,11 +254,11 @@ img {
 }
 
 .work-item {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
-    width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+  width: 270px;
 }
 
 .work-title {
@@ -281,25 +281,25 @@ img {
 
 /*----------------FOOTER----------------*/
 .footer {
-    background-color: var(--dark-background-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
+  background-color: var(--dark-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
  
 .logo-item {
-    margin-bottom: 20px;
-    display: block;
+  margin-bottom: 20px;
+  display: block;
 }
 
 .footer-addres {
-    display: block;
-    font-style: normal;
+  display: block;
+  font-style: normal;
+  margin-bottom: 9px;
+}
+.footer-addres:last-child {
+  margin-bottom: 0px;
 }
 
-.foot {
-    margin-bottom: 9px;
-}
-  
 .logo-footer {
   font-family: "Raleway";
   font-weight: 700;
@@ -329,7 +329,7 @@ img {
 }
 .kontakt-link:hover,
 .kontakt-link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /*----------------PORT----------*/
